@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cold Storage Indonesia | PT. Mega International Sejahtera</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="google-site-verification" content="9-S9RpFm4_wgacf_p6VQHqxJrBySdEHniLIALbcKncA" />
+
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: radial-gradient(circle, #0f3d5e, #071c2d);
+      font-family: 'Inter', sans-serif;
+      color: #fff;
+      overflow: hidden;
+    }
+
+    .loader-wrapper {
+      text-align: center;
+    }
+
+    .logo {
+      width: 90px;
+      margin-bottom: 25px;
+      animation: fadeIn 1.5s ease;
+    }
+
+    .spinner {
+      width: 60px;
+      height: 60px;
+      border: 4px solid rgba(255,255,255,0.2);
+      border-top: 4px solid #4fc3ff;
+      border-radius: 50%;
+      animation: spin 1s linear infinite;
+      margin: auto;
+    }
+
+    .loading-text {
+      margin-top: 18px;
+      font-size: 14px;
+      letter-spacing: 2px;
+      opacity: 0.85;
+    }
+
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .snowflake {
+      font-size: 62px;
+      color: #7fd4ff;
+      animation: snowRotate 1.6s linear infinite;
+      margin: 20px auto;
+    }
+
+@keyframes snowRotate {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+  </style>
+</head>
+<body>
+
+  <div class="loader-wrapper">
+    <!-- Ganti logo -->
+    <img src="dist/assets/img/mcs-no-bg.png" class="logo" alt="MIS">
+    <!-- <div class="spinner"></div> -->
+    <div class="snowflake">❄</div>
+
+    <div class="loading-text">PREPARING MEGA INTERNATIONAL SEJAHTERA COLD STORAGE WEBSITE</div>
+  </div>
+
+  <script>
+    setTimeout(() => {
+      window.location.href = "home.html";
+    }, 2000); // 2 detik
+  </script>
+  <script defer src="/_vercel/insights/script.js"></script>
+
+
+</body>
+</html>

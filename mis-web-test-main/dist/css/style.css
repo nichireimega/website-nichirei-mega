@@ -1,0 +1,36 @@
+/* ========== MARQUEE BASE ========== */
+.marquee-container {
+  
+  overflow: hidden;
+  padding: 20px 0;
+  position: relative;
+}
+
+.marquee-track {
+  display: flex;
+  gap: 60px;
+  width: max-content;
+  animation: marquee-left 18s linear infinite;
+}
+
+.marquee-track img {
+  height: 50px;
+  object-fit: contain;
+  filter: drop-shadow(0 0 2px rgba(0,0,0,0.2));
+}
+
+/* ========== ARAH KIRI (default) ========== */
+@keyframes marquee-left {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+/* ========== ARAH KANAN ========== */
+.marquee-track-right {
+  animation: marquee-right 18s linear infinite;
+}
+
+@keyframes marquee-right {
+  0% { transform: translateX(-50%); }
+  100% { transform: translateX(0); }
+}

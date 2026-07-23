@@ -1,0 +1,20 @@
+{
+  "redirects": [
+    {
+      "source": "/:path.html",
+      "destination": "/:path",
+      "permanent": true
+    }
+  ],
+  "rewrites": [
+    { "source": "/", "destination": "index.html" },
+    { "source": "/mcs-about-us", "destination": "pages/about.html" },
+    { "source": "/article", "destination": "pages/article.html" },
+    { "source": "/career", "destination": "pages/career.html" },
+    { "source": "/client", "destination": "pages/client.html" },
+    { "source": "/contact", "destination": "pages/contact.html" },
+    { "source": "/facilities", "destination": "pages/facilities.html" },
+    { "source": "/iso", "destination": "pages/iso.html" },
+    { "source": "/service", "destination": "pages/service.html" }
+  ]
+}
