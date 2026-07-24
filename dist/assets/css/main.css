@@ -10,8 +10,11 @@ body {
   font-family: 'Inter', sans-serif;
   font-size: 16px;
   line-height: 1.7;
-  color: #ffffff;
-  background-color: #0f3d5e;
+
+  color: #555;
+  /* color: #ffffff; */
+  /* background-color: #0f3d5e; */
+  background-color: #ffffff;
   position: relative;
   overflow-x:hidden;
   width:100%;
@@ -180,7 +183,7 @@ a{
 
 .section-title {
   font-weight: 800;
-  color: #4988C4;
+  color: #636363 !important ;
 }
 
 /* h1, h2, h3 {
@@ -202,14 +205,15 @@ a{
   top: 0;
   left: 0;
   width: 100%;
-  background-color: #0f3d5e;
+  /* background-color: #0f3d5e; */
+  background-color: #ff3838;
   padding: 12px 0;
   box-shadow: 0 6px 25px rgba(0,0,0,0.15);
   z-index: 9999;
 }
 
 .navbar-custom.fixed {
-  background: rgba(15, 61, 94, 0.9);
+  background: rgba(255, 45, 45, 0.9);
   backdrop-filter: blur(8px);
 }
 
@@ -266,13 +270,22 @@ a{
 
 
     .btn-primary-custom {
-      background: #4988C4;
+      /* background: #4988C4; */
+      background: #ff3838 !important;
       border: none;
       color: #fff;
     }
+    .btn-outline-light{
+      border-color: #ff3838 !important;
+    }
+    .btn-outline-light:hover{
+      background: #ff3838 !important;
+      color: #ffffff;
+    }
 
     .btn-primary-custom:hover {
-      background: #4988C4;
+      /* background: #4988C4; */
+      background: #be1b1b !important;
     }
 
     .stat-number {
@@ -344,7 +357,8 @@ a{
   margin: auto;
   width: 80px;
   height: 80px;
-  background: #0f3d5e;
+  /* background: #0f3d5e; */
+  background:#ff3838 !important;
   color: #fff;
   font-size: 28px;
   border-radius: 50%;
@@ -399,7 +413,7 @@ a{
 }
 
 .hero-badge {
-  background-color: #4988C4;
+  background-color: #ff3838 !important;
   padding: 8px 16px;
   border-radius: 50px;
   font-weight: 600;
@@ -417,8 +431,10 @@ a{
 }
 
 .btn-primary-custom {
-  background-color: #4988C4;
-  border-color: #4988C4;
+  /* background-color: #4988C4;
+  border-color: #4988C4; */
+  background-color: #ff3838 !important;
+  border-color: #ff3838 !important;
   color: #fff;
 }
 
@@ -427,7 +443,7 @@ a{
 }
 
 .stat-number {
-  color: #4988C4;
+  color: #ff3838 !important;
   font-weight: 800;
 }
 
@@ -458,7 +474,7 @@ a{
 
 /* client section */
 .client-section {
-   background: linear-gradient(135deg, #0f3d5e, #08293f);
+   background: linear-gradient(135deg, #ff3838 , #ffabab)!important;
 }
 
 .client-marquee {
@@ -520,7 +536,7 @@ a{
 
 .service-desc {
   max-width: 650px;
-  color: #ffffff;
+  color: #555;
 }
 
 .service-card {
@@ -545,7 +561,8 @@ a{
 .icon-box {
   width: 56px;
   height: 56px;
-  background: #4988C4;
+  /* background: #4988C4; */
+  background:#ff3838 !important;
   color: #fff;
   border-radius: 14px;
   display: flex;
@@ -795,7 +812,7 @@ a{
 .faq-divider {
   width: 60px;
   height: 3px;
-  background: #4988C4;
+  background: #ff3838;
   margin: 15px auto;
 }
 
