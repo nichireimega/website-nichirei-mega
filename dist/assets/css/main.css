@@ -7,11 +7,16 @@ html{
 }
 
 body {
-  font-family: 'Inter', sans-serif;
-  font-size: 16px;
-  line-height: 1.7;
 
-  color: #555;
+   font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #333;
+  /* font-family: 'Inter', sans-serif; */
+  /* font-size: 16px;
+  line-height: 1.7; */
+
+  /* color: #555; */
   /* color: #ffffff; */
   /* background-color: #0f3d5e; */
   background-color: #ffffff;
@@ -550,11 +555,12 @@ a{
 
 .service-card:hover {
   transform: translateY(-8px);
-  box-shadow: 0 25px 50px rgba(15,61,94,0.15);
+  /* box-shadow: 0 25px 50px rgba(94, 15, 15, 0.15); */
+  box-shadow: 0 25px 50px rgba(250, 42, 42, 0.15);
 }
 
 .service-card.featured {
-  border: 2px solid #4988C4;
+  border: 2px solid #ff3838;
   background: linear-gradient(135deg, #ffffff, #f0fbf6);
 }
 
@@ -575,7 +581,7 @@ a{
 .service-card h4,
 .service-card h5 {
   font-weight: 700;
-  color: #4988C4;
+  color: #636363;
 }
 
 .service-card p {
@@ -588,7 +594,7 @@ a{
 }
 
 .badge-popular {
-  background: #4988C4;
+  background: #ff3838;
   color: #fff;
   font-size: 12px;
   padding: 6px 12px;
@@ -597,7 +603,7 @@ a{
 }
 
 .price {
-  color: #4988C4;
+  color: #636363;
   font-weight: 600;
 }
 
@@ -608,7 +614,7 @@ a{
 }
 
 .btn-main {
-  background: #4988C4;
+  background: #ff3838;
   color: #fff;
   border-radius: 30px;
   padding: 10px 24px;
@@ -616,24 +622,25 @@ a{
 }
 
 .btn-main:hover {
-  background: #0f3d5e;
+  background: #cf0e0e;
+  color: #fff;
 }
 
 .btn-outline {
-  border: 2px solid #4988C4;
-  color: #4988C4;
+  border: 2px solid #ff3838;
+  color: #fff;
   border-radius: 30px;
   padding: 8px 22px;
   font-weight: 600;
 }
 
 .btn-outline:hover {
-  background: #4988C4;
+  background: #ff3838;
   color: #fff;
 }
 
 .stats-box {
-  background: #4988C4;
+  background: #ff3838;
   border-radius: 22px;
   padding: 40px;
   display: grid;
@@ -1087,7 +1094,8 @@ a{
 
 /* facility showcase */
 .facility-showcase {
-  background: linear-gradient(135deg, #0f3d5e, #08293f);
+  /* background: linear-gradient(135deg, #0f3d5e, #08293f); */
+  background: #fff;
   position: relative;
   overflow: hidden;
 }
@@ -1114,7 +1122,7 @@ a{
   position: absolute;
   bottom: 20px;
   left: 20px;
-  background: rgba(15,61,94,0.9);
+  background: #ff3838;
   color: #fff;
   padding: 10px 18px;
   border-radius: 30px;
@@ -1133,6 +1141,7 @@ a{
 .facility-list li {
   margin-bottom: 10px;
   font-size: 15px;
+  color: #918f8f !important;
 }
 
 .facility-list i {
@@ -1283,6 +1292,7 @@ a{
     rgba(15,61,94,0.65)
   );
 }
+
 
 .facility-img-card:hover img {
   transform: scale(1.08);
