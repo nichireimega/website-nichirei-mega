@@ -788,7 +788,7 @@ span.section-badge{
 }
 
 .why-highlight {
-  background: linear-gradient(135deg, #4988C4, #4988C4);
+  background: linear-gradient(135deg, #ff3838, #f57979);
   color: #fff;
   padding: 40px;
   border-radius: 20px;
@@ -821,7 +821,7 @@ span.section-badge{
 
 .faq-title {
   font-weight: 700;
-  color: #4988C4;
+  color: #555;
 }
 
 .faq-divider {
@@ -861,7 +861,7 @@ span.section-badge{
   justify-content: space-between;
   font-weight: 600;
   font-size: 15px;
-  color: #4988C4;
+  color: #ff3838;
   cursor: pointer;
 }
 
@@ -872,8 +872,8 @@ span.section-badge{
 .faq-icon {
   width: 34px;
   height: 34px;
-  background: #dff4ed;
-  color: #4988C4;
+  background: #e5e5e5;
+  color: #ff3838 !important;
   border-radius: 50%;
   display: inline-flex;
   align-items: center;
@@ -918,7 +918,7 @@ span.section-badge{
 }
 
 .faq-item.active .faq-toggle {
-  background: #4988C4;
+  background: #ff3838;
   color: #fff;
   transform: rotate(45deg);
 }
@@ -950,24 +950,29 @@ span.section-badge{
 
 .contact-info i {
   font-size: 24px;
-  color: #4988C4;
+  color: #ff3838 !important;
   margin-bottom: 8px;
   display: inline-block;
+}
+.contact .contact-form h5{
+  color: #ffffff !important;
+  font-weight: 700;
 }
 
 .contact-info h6 {
   font-weight: 600;
   margin-bottom: 4px;
+  color: #555;
 }
 
 .contact-info p{
   font-size: 14px;
-  color: #0f3d5e;
+  color: #6c757d;
   margin: 0;
 }
 
 .contact-form {
-  background: #0f3d5e;
+  background: #ff3838;
   padding: 25px;
   border-radius: 16px;
   box-shadow: 0 10px 25px rgba(0,0,0,0.05);
@@ -980,6 +985,12 @@ span.section-badge{
 .contact-form .contact-info , h6{
   color: #0f3d5e;
 }
+
+.btn-primary-custom{
+  color : #ffffff !important;
+  background: rgb(153, 2, 2) !important;
+}
+
 
 /*CTA */
 .cta-help {
