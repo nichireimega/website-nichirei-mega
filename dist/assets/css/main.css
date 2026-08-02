@@ -181,7 +181,7 @@ a{
 
 
 .section-tag {
-  color: #4988C4;
+  color: #ff3838 !important;
   font-weight: 700;
   letter-spacing: 1px;
 }
@@ -189,6 +189,11 @@ a{
 .section-title {
   font-weight: 800;
   color: #636363 !important ;
+}
+
+span.section-badge{
+  color: #ff3838 !important;
+  font-weight: 600;
 }
 
 /* h1, h2, h3 {
@@ -271,6 +276,9 @@ a{
       max-width: 520px;
       color: #dbe7ef;
       margin-top: 15px;
+    }
+    .hero-card i {
+      color : #ff3838 !important;
     }
 
 
@@ -687,7 +695,7 @@ a{
   right: 20px;
   bottom: 10px;
   font-size: 60px;
-  color: rgba(15,61,94,0.15);
+  color: #ff3838;
   font-family: serif;
 }
 
@@ -700,7 +708,7 @@ a{
   width: 70px;
   height: 70px;
   border-radius: 50%;
-  border: 3px solid #0f3d5e;
+  border: 3px solid #ff3838;
   object-fit: cover;
 }
 
@@ -708,7 +716,7 @@ a{
   margin-top: 10px;
   margin-bottom: 2px;
   font-weight: 600;
-  color: #0f3d5e;
+  color: #555;
 }
 
 .testimonial-user small {
@@ -722,7 +730,7 @@ a{
 }
 
 .swiper-pagination-bullet {
-  background: #0f3d5e;
+  background: #ff3838;
   opacity: 0.3;
 }
 
@@ -764,18 +772,18 @@ a{
 
 .why-icon i {
   font-size: 22px;
-  color: #4988C4;
+  color: #ff3838;
 }
 
 .why-item h5 {
   margin-bottom: 5px;
-  color: #4988C4;
+  color: #555;
   font-weight: 600;
 }
 
 .why-item p {
   margin: 0;
-  color: #fff;
+  color: #6c757d;
   font-size: 15px;
 }
 
