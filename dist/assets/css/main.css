@@ -1181,38 +1181,38 @@ span.section-badge{
 /* Background split */
 .facility-hero {
   background:
-    linear-gradient(110deg,#0f3d5e, #08293f 55%, transparent 55%),
+    linear-gradient(110deg,#db8888, #ff3838 55%, transparent 55%),
     url("../../../dist/assets/img/") center right / cover no-repeat;
     
 }
 .contact-hero {
   background:
-    linear-gradient(110deg,#0f3d5e, #08293f 55%, transparent 55%),
+    linear-gradient(110deg,#db8888, #ff3838 55%, transparent 55%),
     url("../../../dist/assets/img/") center right / cover no-repeat;
     
 }
 
 .career-hero {
   background:
-    linear-gradient(110deg,#0f3d5e, #08293f 55%, transparent 55%),
+    linear-gradient(110deg,#db8888, #ff3838 55%, transparent 55%),
     url("../../../dist/assets/img") center right / cover no-repeat;
     
 }
 .iso-hero {
   background:
-    linear-gradient(110deg,#0f3d5e, #08293f 55%, transparent 55%),
+    linear-gradient(110deg,#db8888, #ff3838 55%, transparent 55%),
     url("../../../dist/assets/img/") center right / cover no-repeat;
     
 }
 .about-hero {
   background:
-    linear-gradient(110deg,#0f3d5e, #08293f 55%, transparent 55%),
+    linear-gradient(110deg,#db8888, #ff3838 55%, transparent 55%),
     url("../../../dist/assets/img/") center right / cover no-repeat;
     
 }
 .service-hero {
   background:
-    linear-gradient(110deg,#0f3d5e, #08293f 55%, transparent 55%),
+    linear-gradient(110deg,#db8888, #ff3838 55%, transparent 55%),
     url("../../../dist/assets/img/") center right / cover no-repeat;
     
 }
@@ -1230,7 +1230,7 @@ span.section-badge{
 
 /* Breadcrumb */
 .breadcrumb {
-  background: #4988C4;
+  background: #ff3838;
   display: inline-flex;
   align-items: center;
   gap: 8px;
@@ -1263,13 +1263,13 @@ span.section-badge{
 
 /* section facility pages facilities.html */
 .facility-section {
-  background: #0f3d5e;
+  background: #ffffff;
 }
 
 .facility-desc {
   max-width: 650px;
   margin: auto;
-  color: #dbe7ef;
+  color: #6c757d;
   font-size: 15px;
 }
 
@@ -1322,14 +1322,14 @@ span.section-badge{
 
 .facility-content i {
   font-size: 26px;
-  color: #4988C4;
+  color: #ff3838;
 }
 
 .facility-content h5 {
   margin-top: 12px;
   margin-bottom: 8px;
   font-weight: 600;
-  color: #0f3d5e;
+  color: #555;
 }
 
 .facility-content p {
@@ -1455,7 +1455,8 @@ span.section-badge{
   align-items: center;
   gap: 60px;
   margin-bottom: 100px;
-  background: linear-gradient(135deg, #0f3d5e, #08293f);
+  background: linear-gradient(135deg, #f18686, #d80e0e);
+  border-radius:20px;
 }
 
 .service-row.reverse {
@@ -1471,7 +1472,7 @@ span.section-badge{
   width: 100%;
   height: 420px;
   object-fit: cover;
-  border-radius: 22px;
+  border-radius: 20px;
 }
 
 .service-img::after {
@@ -1494,7 +1495,7 @@ span.section-badge{
   display: inline-block;
   font-size: 13px;
   letter-spacing: 1px;
-  color: #2fa4ff;
+  color: #ffffff;
   margin-bottom: 10px;
   text-transform: uppercase;
 }
@@ -1502,6 +1503,7 @@ span.section-badge{
 .service-content h2 {
   font-size: 34px;
   margin-bottom: 15px;
+  
 }
 
 .service-content p {
@@ -1608,7 +1610,7 @@ span.section-badge{
 }
 
 .about-content p {
-  color: #fff;
+  color: #6c757d;
   line-height: 1.7;
 }
 
@@ -1620,11 +1622,12 @@ span.section-badge{
 }
 
 .feature-badges span {
-  background: #4988C4;
+  background: #ff3838;
   padding: 10px 16px;
   border-radius: 30px;
   font-size: 14px;
   font-weight: 500;
+  color:#ffffff;
 }
 
 .feature-badges i {
@@ -1655,7 +1658,7 @@ span.section-badge{
   position: absolute;
   bottom: 20px;
   left: 20px;
-  background: #4988C4;
+  background: #ff3838;
   color: #fff;
   padding: 10px 18px;
   border-radius: 30px;
@@ -1678,7 +1681,7 @@ span.section-badge{
 /* section strategy */
 .strategy-wrapper {
   position: relative;
-  background: linear-gradient(135deg, #063b6b, #0b4f8a);
+  background: linear-gradient(135deg, #ff3838, #f38787);
   border-radius: 24px;
   padding: 60px;
   display: flex;
@@ -1704,7 +1707,7 @@ span.section-badge{
 }
 
 .strategy-content {
-  color: #fff;
+  color: #555;
   max-width: 60%;
   position: relative;
   z-index: 2;
@@ -1735,7 +1738,7 @@ span.section-badge{
 
 .strategy-block i {
   margin-right: 8px;
-  color: #7dd3fc;
+  color: #555;
 }
 
 .strategy-block p {
