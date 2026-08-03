@@ -55,8 +55,6 @@ a{
     radial-gradient(circle at 70% 60%, rgba(255,255,255,0.06) 3px, transparent 4px),
     radial-gradient(circle at 40% 80%, rgba(255,255,255,0.05) 2px, transparent 3px),
     radial-gradient(circle at 90% 20%, rgba(255,255,255,0.04) 3px, transparent 4px);
-  background-size: 120px 120px;
-  animation: condensationMove 40s linear infinite;
 }
 
 .condensation-bg::after {
@@ -783,7 +781,7 @@ span.section-badge{
 
 .why-item p {
   margin: 0;
-  color: #6c757d;
+  color: #a0aab3;
   font-size: 15px;
 }
 
@@ -994,24 +992,24 @@ span.section-badge{
 
 /*CTA */
 .cta-help {
-  background: linear-gradient(135deg, #79b2e0, #eef6fb);
+  background: linear-gradient(135deg, #ff3838, #eef6fb);
   border-top: 1px solid #e6edf3;
 }
 
 .cta-title {
   font-size: 2.2rem;
   font-weight: 700;
-  color: #0f3d5e;
+  color: #ffffff;
 }
 
 .cta-desc {
   font-size: 1rem;
-  color: #6c757d;
+  color: #555;
   max-width: 650px;
 }
 
 .btn-cta {
-  background-color: #0f3d5e;
+  background-color: rgb(153, 2, 2) !important;
   color: #fff;
   padding: 14px 28px;
   border-radius: 10px;
@@ -1020,16 +1018,16 @@ span.section-badge{
 }
 
 .btn-cta:hover {
-  background-color: #0b2f49;
+  background-color: #f04e4e;
   transform: translateY(-2px);
-  box-shadow: 0 10px 25px rgba(15, 61, 94, 0.25);
+  box-shadow: 0 10px 25px rgba(247, 92, 92, 0.25);
   color: #fff;
 }
 
 
 /* footer */
 .footer-dark {
-  background: radial-gradient(circle at top, #0f3d5e, #081f2f);
+  background: radial-gradient(circle at top, #da7171, #ff3838);
   color: #cfd8dc;
 }
 
@@ -1071,12 +1069,12 @@ span.section-badge{
 }
 
 .footer-links a:hover {
-  color: #4988C4;
+  color: #555;
   padding-left: 5px;
 }
 
 .footer-contact i {
-  color: #4988C4;
+  color: #ffffff;
   margin-right: 8px;
 }
 
@@ -1098,9 +1096,9 @@ span.section-badge{
 }
 
 .footer-social a:hover {
-  background: #4988C4;
+  background: #ffffff;
   color: #081f2f;
-  border-color: #4988C4;
+  border-color: #ff3838;
 }
 
 .footer-bottom {
