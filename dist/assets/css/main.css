@@ -989,6 +989,10 @@ span.section-badge{
   background: rgb(153, 2, 2) !important;
 }
 
+.text-white{
+  color: #6b7280 !important;
+}
+
 
 /*CTA */
 .cta-help {
@@ -1341,9 +1345,9 @@ span.section-badge{
 
 /* section career pages career.html */
 .career-section {
-  background: linear-gradient(180deg, #0b3c5d, #072c45);
+  background:#ffffff;
   padding: 100px 0;
-  color: #fff;
+  color: #555;
 }
 
 .career-header {
@@ -1368,7 +1372,7 @@ span.section-badge{
 }
 
 .career-header p {
-  color: #cfe9ff;
+  color: #6b7280;
 }
 
 .career-grid {
@@ -1378,7 +1382,7 @@ span.section-badge{
 }
 
 .career-card {
-  background: rgba(255,255,255,0.08);
+  background: rgba(207, 1, 1, 0.08);
   backdrop-filter: blur(10px);
   border-radius: 18px;
   padding: 35px;
@@ -1387,13 +1391,13 @@ span.section-badge{
 
 .career-card:hover {
   transform: translateY(-10px);
-  background: rgba(255,255,255,0.12);
+  background: rgba(194, 0, 0, 0.12);
 }
 
 .career-icon {
   width: 60px;
   height: 60px;
-  background: rgba(47,164,255,0.15);
+  background: rgba(240, 37, 37, 0.15);
   border-radius: 14px;
   display: flex;
   align-items: center;
@@ -1403,7 +1407,7 @@ span.section-badge{
 
 .career-icon i {
   font-size: 26px;
-  color: #2fa4ff;
+  color: #ff3838;
 }
 
 .career-card h4 {
@@ -1419,16 +1423,17 @@ span.section-badge{
 .career-card ul li {
   margin-bottom: 10px;
   font-size: 14px;
+  color: #6b7280;
 }
 
 .career-card ul i {
-  color: #2fa4ff;
+  color: #ff3838;
   margin-right: 8px;
 }
 
 .career-btn {
   display: inline-block;
-  background: #072c45;
+  background: #ff3838;
   color: #fff;
   padding: 12px 22px;
   border-radius: 30px;
@@ -1438,7 +1443,7 @@ span.section-badge{
 }
 
 .career-btn:hover {
-  background: #0b3c5d;
+  background: #bd0606;
 }
 
 
@@ -1542,14 +1547,14 @@ span.section-badge{
 
 /* ISO SECTION */
 .iso-section {
-  background: linear-gradient(180deg, #0f3d5e, #0b2f49);
+  background:#ffffff;
   padding: 100px 0;
 }
 
 .iso-desc {
   max-width: 650px;
   margin: 15px auto 0;
-  color: #dbe7ef;
+  color: #6b7280;
   font-size: 15px;
 }
 
@@ -1559,7 +1564,7 @@ span.section-badge{
   padding: 35px 25px;
   text-align: center;
   height: 100%;
-  box-shadow: 0 15px 40px rgba(0,0,0,0.12);
+  box-shadow: 0 15px 40px rgba(230, 42, 42, 0.12);
   transition: all 0.35s ease;
 }
 
@@ -1571,7 +1576,7 @@ span.section-badge{
 
 .iso-card h6 {
   font-weight: 700;
-  color: #0f3d5e;
+  color: #555;
   margin-bottom: 4px;
 }
 
@@ -1582,7 +1587,7 @@ span.section-badge{
 
 .iso-card:hover {
   transform: translateY(-8px);
-  box-shadow: 0 25px 60px rgba(15,61,94,0.25);
+  box-shadow: 0 15px 40px rgba(230, 42, 42, 0.12);;
 }
 
 .iso-card:hover img {
@@ -1863,7 +1868,8 @@ span.section-badge{
 /* article */
 /* ARTICLE SECTION */
 .article-section {
-  background: #0f3d5e;
+  background: #ff3838;
+  
 }
 
 .article-card {
@@ -1871,15 +1877,21 @@ span.section-badge{
   border-radius: 18px;
   overflow: hidden;
   height: 100%;
-  box-shadow: 0 15px 35px rgba(0,0,0,0.08);
+  box-shadow: 0 15px 35px rgba(247, 14, 14, 0.08);
   transition: all 0.4s ease;
   display: flex;
   flex-direction: column;
+  
+
+}
+
+.text-light{
+  color: #6b7280 !important;
 }
 
 .article-card:hover {
   transform: translateY(-8px);
-  box-shadow: 0 25px 50px rgba(15,61,94,0.2);
+  box-shadow: 0 25px 50px rgba(247, 14, 14, 0.2);
 }
 
 .article-img img {
@@ -1895,13 +1907,13 @@ span.section-badge{
 .article-category {
   font-size: 12px;
   font-weight: 700;
-  color: #4988C4;
+  color: #ff3838;
   letter-spacing: 1px;
 }
 
 .article-content h5 {
   font-weight: 700;
-  color: #0f3d5e;
+  color: #555;
   margin: 12px 0 10px;
 }
 
@@ -1917,7 +1929,7 @@ span.section-badge{
   gap: 6px;
   font-weight: 600;
   font-size: 14px;
-  color: #4988C4;
+  color: #ff3838;
   text-decoration: none;
   margin-top: 15px;
   transition: 0.3s;
@@ -1925,7 +1937,7 @@ span.section-badge{
 
 .article-link:hover {
   gap: 10px;
-  color: #0f3d5e;
+  color: #da0d0d;
 }
 
 /* Mobile */
@@ -2028,6 +2040,8 @@ span.section-badge{
     max-width: 120px;
   }
 }
+
+
 
 
 /* icon WA melayang */
